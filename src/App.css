@@ -68,7 +68,6 @@ div:where(.swal2-container) div:where(.swal2-popup){
   min-height: 320px !important;
   width: 28em !important;
   padding: 25px 30px !important;
-  border: 1px solid #e016ffc9 !important;
 }
 div:where(.swal2-container) h2:where(.swal2-title){
   font-size: 23px !important;
@@ -81,6 +80,9 @@ div:where(.swal2-container) h2:where(.swal2-title){
 div:where(.swal2-icon){
   scale: 70%;
   margin: auto !important;
+}
+div:where(.swal2-container).swal2-backdrop-show, div:where(.swal2-container).swal2-noanimation {
+  background: rgba(0,0,0,.7) !important;
 }
 div:where(.swal2-container) button:where(.swal2-styled).swal2-confirm{
   width: 100%;
