@@ -79,6 +79,7 @@
     padding: 0px 20px !important;
     display: flex;
     justify-content: flex-end;
+    padding-right: 30px !important;
   }
   .notification .bell {
     margin-left: auto !important;
@@ -106,5 +107,7 @@
     transform: rotateY(180deg);
     width: 20px;
     display: block;
+    /* padding-right: 40px !important; */
   }
+  
 }
